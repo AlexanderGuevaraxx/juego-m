@@ -18,8 +18,9 @@ class game{
 
 	}
 	main(){
-		const canvas=document.getElementById('canvas');
+		const canvas=document.getElementById("canvas");
 		var ctx=canvas.getContext("2d");
+		ctx.fillRect(10,20,100,200);
 	}
 }
 
