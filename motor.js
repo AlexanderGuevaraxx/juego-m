@@ -14,6 +14,12 @@ class sprite{
 		ctx.drawImage(this.img,this.x,this.y);
 	}
 }
+//-------------------------------------------------------------functions------------------------------------------------------------------
+function Draw() {
+	ctx.clearRect();
+	world.Draw();
+}
+
 
 class game{
 	constructor(){
