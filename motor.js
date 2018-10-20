@@ -12,7 +12,11 @@ class sprite{
 
 	}
 }
-
+//functions-----------------------------------------------------------------------------------------------------------------------------------
+function Draw(){
+	ctx.clearRect(0,0, width, eight );
+	world.Draw();
+	
 class game{
 	constructor(){
 
