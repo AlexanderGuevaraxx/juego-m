@@ -1,14 +1,7 @@
-var config = {
-    width: 800,
-    height: 600,
-    renderer: Phaser.AUTO,
-    antialias: true,
-    multiTexture: true,
-    state: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-}
+//w es largo
+//h es ancho
+class sprite{
+	constructor(x,y,dir,w,h){
 
-var game = new Phaser.Game(config);
+	}
+}
