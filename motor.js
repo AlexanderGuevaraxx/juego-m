@@ -2,16 +2,16 @@
 //h es ancho
 
 class sprite{
-	constructor(x,y,dir,w,h){
-		this.im=im;
-		im=new Image();
+	constructor(x,y,dir){
+		this.dir=dir;
 		this.x=x;
 		this.y=y;
-		this.dir=im.src;
+		this.img=new Image();
+		this.img.src=this.dir;
 	}
 	draw(){
-		ctx.drawImage(this.im,this.x,this.y);
-		//ctx.drawImage(this.im,this.x,this.y,this.w,this.h);
+		ctx.clearRect(0,0,500,600);
+		ctx.drawImage(this.img,this.x,this.y);
 	}
 }
 
