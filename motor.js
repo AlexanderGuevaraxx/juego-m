@@ -24,4 +24,5 @@ class game{
 	}
 }
 
-window.addEventListener("load",game.main,false);
+var c=new game();
+window.addEventListener("load",c.main,false);
